@@ -5,8 +5,8 @@ A tiny hobby MATLAB project for reading Iranian car license plates
 This file is written and tested using MATLAB 2012b
 
 ```matlab
-imgPath = 'Cars\1.jpg'
-plate = readCar(imgPath)
+imgPath = 'Cars\1.jpg';
+plate = readCar(imgPath);
 ```
 
 This process start to learn an *Artificial Neural Network* using train set we provided in an excel file, And then use the learnt Neural Network to identify plate numbers.
